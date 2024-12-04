@@ -1,0 +1,6 @@
+<Settings>
+<Table Name="PARAMETER">
+<Field Name="KEY" PrimaryKey="1" Identity="0" DBType="String" DBSize="100" ForeignKey="0" TableForeignKey=""/>
+<Field Name="VALUE" PrimaryKey="0" Identity="0" DBType="Text" DBSize="2147483647" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHL.BusinessLayer.Project\SHL.BusinessLayer.Project.csproj" />
+    <ProjectReference Include="..\SHL.BusinessLayer.Task\SHL.BusinessLayer.Task.csproj" />
+    <ProjectReference Include="..\SHL.DataLayer.TimeSheet\SHL.DataLayer.TimeSheet.csproj" />
+    <ProjectReference Include="..\SHL.IRetorno\SHL.IRetorno.csproj" />
+    <ProjectReference Include="..\SHL.ITimeSheet\SHL.ITimeSheet.csproj" />
+  </ItemGroup>
+
+</Project>

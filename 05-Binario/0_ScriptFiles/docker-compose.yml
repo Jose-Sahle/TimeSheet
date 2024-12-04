@@ -1,0 +1,66 @@
+version: "2"
+
+services:
+  shltimesheetng:
+    image: shltimesheetng:latest
+    container_name: shltimesheetng
+    ports: 
+    - 8081:80
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    networks:
+    - shlnetwork
+
+  shltimesheet:
+    image: shltimesheet:latest
+    container_name: shltimesheet
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    networks:
+    - shlnetwork
+
+  shltask:
+    image: shltask:latest
+    container_name: shltask
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    networks:
+    - shlnetwork
+
+  shlproject:
+    image: shlproject:latest
+    container_name: shlproject
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    networks:
+    - shlnetwork
+
+  shlparameter:
+    image: shlparameter:latest
+    container_name: shlparameter
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    networks:
+    - shlnetwork
+
+  shltokensecurity:
+    image: shltokensecurity:latest
+    container_name: shltokensecurity
+    volumes:
+    - /home/timesheet/SHL.Shared:/opt/SHL.Shared
+    ports: 
+    - 8082:80
+    networks:
+      - shlnetwork
+
+  shlpropriedades:
+    image: shlpropriedades:latest
+    container_name: shlpropriedades
+    volumes:
+    - /home/timesheet/Properties/appsettings.json:/opt/SHL.Propriedades/appsettings.json
+    networks:
+      - shlnetwork
+
+networks:
+  shlnetwork:
+    driver: bridge

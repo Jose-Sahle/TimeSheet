@@ -1,0 +1,8 @@
+SHL.TimeSheetNG|shltimesheetng| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.TimeSheet|shltimesheet| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Parameter|shlparameter| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Project|shlproject| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Syncronism|shlsyncronism| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Task|shltask| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.TokenSecurity|shltokensecurity| |-v /mnt/hd2/home/timesheet/SHL.Shared:/opt/SHL.Shared -v /mnt/hd2/home/timesheet/App_data:/opt/SHL.TokenSecurity/App_data
+SHL.Propriedades|shlpropriedades| |-v /mnt/hd2/home/timesheet/Properties/appsettings.json:/opt/SHL.Propriedades/appsettings.json

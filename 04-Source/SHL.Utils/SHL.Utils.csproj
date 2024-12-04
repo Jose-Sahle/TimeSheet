@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <DocumentationFile>bin\Release\netcoreapp2.1\SHL.Utils.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType></DebugType>
+    <SignAssembly></SignAssembly>
+    <NoWarn></NoWarn>
+    <DocumentationFile>bin\Debug\netcoreapp2.1\SHL.Utils.xml</DocumentationFile>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SHL.Criptografia\SHL.Criptografia.csproj" />
+    <ProjectReference Include="..\SHL.HttpRequest\SHL.HttpRequest.csproj" />
+    <ProjectReference Include="..\SHL.IPropriedade\SHL.IPropriedade.csproj" />
+    <ProjectReference Include="..\SHL.IRetorno\SHL.IRetorno.csproj" />
+  </ItemGroup>
+</Project>

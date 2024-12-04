@@ -1,0 +1,8 @@
+SHL.TimeSheetNG|shltimesheetng| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.TimeSheet|shltimesheet| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Parameter|shlparameter| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Project|shlproject| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Syncronism|shlsyncronism| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.Task|shltask| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared
+SHL.TokenSecurity|shltokensecurity| |-v /hd/docker/timesheet/SHL.Shared:/opt/SHL.Shared -v /hd/docker/timesheet/App_data:/opt/SHL.TokenSecurity/App_data
+SHL.Propriedades|shlpropriedades| |-v /hd/docker/timesheet/Properties/appsettings.json:/opt/SHL.Propriedades/appsettings.json

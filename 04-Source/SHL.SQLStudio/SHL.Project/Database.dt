@@ -1,0 +1,8 @@
+<Settings>
+<Table Name="PROJECT">
+<Field Name="ID_PROJECT" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="START_DT" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="END_DT" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DESCRIPTION" PrimaryKey="0" Identity="0" DBType="String" DBSize="500" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHL.DataLayer.Project\SHL.DataLayer.Project.csproj" />
+    <ProjectReference Include="..\SHL.IProject\SHL.IProject.csproj" />
+    <ProjectReference Include="..\SHL.IRetorno\SHL.IRetorno.csproj" />
+  </ItemGroup>
+
+</Project>

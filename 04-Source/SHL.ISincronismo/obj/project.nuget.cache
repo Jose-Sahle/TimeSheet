@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IDSDAt40M8iXp/r5lM/rB8WtpDxXZaalNvTvjx6pl8TiOyfgU5XNqAwuy8kCjKS7JlpUcqnh5ul8uNLgcTg0eg==",
+  "success": true,
+  "projectFilePath": "G:\\Notebook-DELL-2022-08-27\\Biblioteca\\Projetos\\shlinfo\\StudioNET\\TimeSheet\\04-Source\\SHL.ISincronismo\\SHL.ISincronismo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\thor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

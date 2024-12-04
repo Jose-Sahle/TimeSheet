@@ -1,0 +1,10 @@
+<Settings>
+<Table Name="TASK">
+<Field Name="ID_TASK" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="START_TM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="END_TM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DESCRIPTION" PrimaryKey="0" Identity="0" DBType="String" DBSize="500" ForeignKey="0" TableForeignKey=""/>
+<Field Name="ID_TIMESHEET" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="ID_PROJECT" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

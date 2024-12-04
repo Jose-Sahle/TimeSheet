@@ -1,0 +1,5 @@
+D:\Biblioteca\Projetos\shlinfo\StudioNET\TimeSheet\04-Source\TokenSecurityTest\obj\Debug\TokenSecurityTest.csproj.AssemblyReference.cache
+D:\Biblioteca\Projetos\shlinfo\StudioNET\TimeSheet\04-Source\TokenSecurityTest\obj\Debug\TokenSecurityTest.frmPrincipal.resources
+D:\Biblioteca\Projetos\shlinfo\StudioNET\TimeSheet\04-Source\TokenSecurityTest\obj\Debug\TokenSecurityTest.Properties.Resources.resources
+D:\Biblioteca\Projetos\shlinfo\StudioNET\TimeSheet\04-Source\TokenSecurityTest\obj\Debug\TokenSecurityTest.csproj.GenerateResource.cache
+D:\Biblioteca\Projetos\shlinfo\StudioNET\TimeSheet\04-Source\TokenSecurityTest\obj\Debug\TokenSecurityTest.csproj.CoreCompileInputs.cache

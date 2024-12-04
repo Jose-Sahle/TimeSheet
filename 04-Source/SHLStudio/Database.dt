@@ -1,0 +1,12 @@
+<Settings>
+<Table Name="TIMESHEET">
+<Field Name="ID_TIMESHEET" PrimaryKey="0" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DATE_RG" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="START_AM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="END_AM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="START_PM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="END_PM" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DESCRIPTION" PrimaryKey="0" Identity="0" DBType="String" DBSize="500" ForeignKey="0" TableForeignKey=""/>
+<Field Name="NOVOCAMPOS" PrimaryKey="0" Identity="0" DBType="String" DBSize="500" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

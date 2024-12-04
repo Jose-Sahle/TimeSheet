@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\SHL.Syncronism.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.1\SHL.Syncronism.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHL.BaseModel\SHL.BaseModel.csproj" />
+    <ProjectReference Include="..\SHL.BusinessLayer.Parameter\SHL.BusinessLayer.Parameter.csproj" />
+    <ProjectReference Include="..\SHL.BusinessLayer.Project\SHL.BusinessLayer.Project.csproj" />
+    <ProjectReference Include="..\SHL.BusinessLayer.Task\SHL.BusinessLayer.Task.csproj" />
+    <ProjectReference Include="..\SHL.BusinessLayer.TimeSheet\SHL.BusinessLayer.TimeSheet.csproj" />
+    <ProjectReference Include="..\SHL.IRetorno\SHL.IRetorno.csproj" />
+    <ProjectReference Include="..\SHL.ISincronismo\SHL.ISincronismo.csproj" />
+    <ProjectReference Include="..\SHL.Types\SHL.Types.csproj" />
+  </ItemGroup>
+
+</Project>

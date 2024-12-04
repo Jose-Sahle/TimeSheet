@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHL.BaseDAL\SHL.BaseDAL.csproj" />
+    <ProjectReference Include="..\SHL.IRetorno\SHL.IRetorno.csproj" />
+    <ProjectReference Include="..\SHL.ITimeSheet\SHL.ITimeSheet.csproj" />
+    <ProjectReference Include="..\SHL.SQLHelper\SHL.SQLHelper.csproj" />
+  </ItemGroup>
+
+</Project>
